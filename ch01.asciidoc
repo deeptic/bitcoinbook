@@ -59,6 +59,7 @@ Satoshi Nakamoto withdrew from the public in April 2011, leaving the responsibil
 
 .A Solution to a Distributed Computing Problem
 ****
+>
 ((("Byzantine Generals&#x27; Problem")))Satoshi Nakamoto's invention is also a practical and novel solution to a problem in distributed computing, known as the "Byzantine Generals' Problem." Briefly, the problem consists of trying to agree on a course of action or the state of a system by exchanging information over an unreliable and potentially compromised network. ((("central trusted authority")))Satoshi Nakamoto's solution, which uses the concept of Proof-of-Work to achieve consensus _without a central trusted authority_, represents a breakthrough in distributed computing and has wide applicability beyond currency. It can be used to achieve consensus on decentralized networks to prove the fairness of elections, lotteries, asset registries, digital notarization, and more.
 ****
 
@@ -96,7 +97,7 @@ Each of these stories is based on the real people and real industries currently 
 ((("getting started", "wallet selection", id="GSwallet01")))((("wallets", "selecting", id="Wselect01")))((("bitcoin", "getting started", id="BCbasic01")))Bitcoin is a protocol that can be accessed using a client application that speaks the protocol. A "Bitcoin wallet" is the most common user interface to the Bitcoin system, just like a web browser is the most common user interface for the HTTP protocol. There are many implementations and brands of Bitcoin wallets, just like there are many brands of web browsers (e.g., Chrome, Safari, Firefox, and Internet Explorer). And just like we all have our favorite browsers (Mozilla Firefox, Yay!) and our villains (Internet Explorer, Yuck!), Bitcoin wallets vary in quality, performance, security, privacy, and reliability. There is also a reference implementation of the Bitcoin protocol that includes a wallet, known as the "Satoshi Client" or "Bitcoin Core," which is derived from the original implementation written by Satoshi Nakamoto.
 
 ==== Choosing a Bitcoin Wallet
-
+>
 ((("security", "wallet selection")))Bitcoin wallets are one of the most actively developed applications in the Bitcoin ecosystem. There is intense competition, and while a new wallet is probably being developed right now, several wallets from last year are no longer actively maintained. Many wallets focus on specific platforms or specific uses and some are more suitable for beginners while others are filled with features for advanced users. Choosing a wallet is highly subjective and depends on the use and user expertise. Therefore it would be pointless to recommend a specific brand or wallet. However, we can categorize Bitcoin wallets according to their platform and function and provide some clarity about all the different types of wallets that exist. Better yet, moving keys or seeds between Bitcoin wallets is relatively easy, so it is worth trying out several different wallets until you find one that fits your needs.
 
 [role="pagebreak-before"]
@@ -125,7 +126,7 @@ For the purposes of this book, we will be demonstrating the use of a variety of 
 ==== Quick Start
 
 ((("getting started", "quick start example", id="GSquick01")))((("wallets", "quick start example", id="Wquick01")))((("use cases", "buying coffee", id="aliceone")))Alice, who we introduced in <<user-stories>>, is not a technical user and only recently heard about Bitcoin from her friend Joe. While at a party, Joe is once again enthusiastically explaining Bitcoin to all around him and is offering a demonstration. Intrigued, Alice asks how she can get started with Bitcoin. Joe says that a mobile wallet is best for new users and he recommends a few of his favorite wallets. Alice downloads "Bluewallet" (available for iOS and Android) and installs it on her phone.
-
+>
 When Alice runs her wallet application for the first time, she chooses the option to create a new Bitcoin wallet, and takes a moment **away from Joe and all other parties** to write down a secret mnemonic phrase _in order_ on a piece of paper. As explained by the mobile wallet and by Joe earlier, the mnemonic phrase allows Alice to restore her wallet in case she loses her mobile device and grants her access to her funds on another device. After creating her wallet and securing her mnemonic phrase, Alice can tap on her wallet to see her bitcoin amount, transaction history, as well as two buttons that allow her to either _receive_ or _send_ bitcoin, shown in <<bluewallet-welcome>>.
 
 ==== Mnemonic Words
